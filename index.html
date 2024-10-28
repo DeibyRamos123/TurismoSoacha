@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina principal - turismo soacha</title>
+</head>
+<body>
+    <header class="cabezera">
+        <div class="cabezera__elementos-flex">
+            <img src="img/soacha.png" alt="logo" class="logo">
+        <h3 class="cabezera__titulo">SoachaTravel</h3>
+        </div>
+        <nav class="cabezera__menu">
+            <ul class="cabezera__lista">
+                <li class="cabezera__lista-elemento"><a href="#lugar1" class="cabezera__lista-elemento__link">salto tequendama</a></li>
+                <li class="cabezera__lista-elemento"><a href="#lugar2" class="cabezera__lista-elemento__link">parque chicaque</a></li>
+                <li class="cabezera__lista-elemento"><a href="#lugar3" class="cabezera__lista-elemento__link">parque de soacha</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="pagina-principal">
+        <section class="lugar">
+            <img src="img/soacha_imagen.jpg" alt="paisaje" class="lugar__imagen__fondo">
+            <div class="tarjeta">
+                <h1 class="tarjeta__titulo">Soacha Travel</h1>
+                <p class="tarjeta__info">Soacha un lugar magico con bastantes lugares turisticos</p>
+            </div>
+        </section>
+        <section class="lugar" id="lugar1">
+            <img src="img/salto.jpg" alt="paisaje" class="lugar__imagen__fondo lugar__imagen__fondo--mini">
+            <div class="tarjeta tarjeta--mod">
+                <h2 class="tarjeta__titulo">Salto Del Tequendama</h2>
+                <p class="tarjeta__info tarjeta__info--short">El Salto de Tequendama es una cascada natural, ubicada aproximadamente a 30 km al suroeste de Bogotá, el cual se nutre de las aguas del Río Bogotá y contribuye a la recarga de 
+                    acuíferos sobre los cuales se asientan poblaciones como Facatativá, Bojacá y Soacha, entre otras</p>
+                <a href="https://www.tripadvisor.co/Attraction_Review-g294074-d590767-Reviews-Salto_De_Tequendama-Bogota.html" class="tarjeta__link">Vistar ahora</a>
+            </div>
+        </section>
+        <section class="mas-lugares" id="lugar2">
+            <h2 class="mas-lugares__titulo">Parque Natural Chicaque</h2>
+            <div class="atracciones">
+                <div class="atracciones__lugar-container">
+                    <img src="img/tiroleza.jpg" alt="imagen" class="atracciones__lugar-container__imagen">
+                    <div class="lugar-container__texto">
+                        <h3 class="atracciones__lugar-container__titulo">Cenderismo</h3>
+                        <p class="atracciones__lugar-container__descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit repellendus cumque vero.
+                             Quae dignissimos voluptatibus, perferendis quibusdam nemo quos minima quisquam repellat,
+                              quia ipsam repudiandae distinctio, eligendi sunt iusto rerum.</p>
+                    </div>
+                </div>
+                <div class="atracciones__lugar-container">
+                    <img src="img/lago.jpg" alt="imagen" class="atracciones__lugar-container__imagen">
+                    <div class="lugar-container__texto">
+                        <h3 class="atracciones__lugar-container__titulo">lago</h3>
+                        <p class="atracciones__lugar-container__descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit repellendus cumque vero.
+                             Quae dignissimos voluptatibus, perferendis quibusdam nemo quos minima quisquam repellat,
+                              quia ipsam repudiandae distinctio, eligendi sunt iusto rerum.</p>
+                    </div>
+                </div>
+                <div class="atracciones__lugar-container">
+                    <img src="img/camping.jpg" alt="imagen" class="atracciones__lugar-container__imagen">
+                    <div class="lugar-container__texto">
+                        <h3 class="atracciones__lugar-container__titulo">Camping</h3>
+                        <p class="atracciones__lugar-container__descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit repellendus cumque vero.
+                             Quae dignissimos voluptatibus, perferendis quibusdam nemo quos minima quisquam repellat,
+                              quia ipsam repudiandae distinctio, eligendi sunt iusto rerum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lugar lugar--galeria" id="lugar3">
+            <h2 class="lugar__titulo">Parque de Soacha</h2>
+            <div class="lugar__imagenes">
+                <img src="img/iglesia.jpg" alt="imagen" class="lugar__imagenes__imagen1">
+                <div class="lugar__imagenes__horizontales">
+                    <img src="img/galan.jpg" alt="imagen" class="lugar__imagenes__imagen2">
+                    <img src="img/parque.jpeg" alt="imagen" class="lugar__imagenes__imagen3">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
